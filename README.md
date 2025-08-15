@@ -4,7 +4,7 @@ Este es mi portfolio personal desarrollado con **HTML**, **CSS** y **JavaScript*
 
 ## 📋 Descripción
 
-El sitio tiene como objetivo mostrar mi perfil profesional y mis trabajos de forma interactiva y visualmente atractiva, combinando animaciones, efectos dinámicos y un diseño responsivo.  
+El sitio tiene como objetivo mostrar mi perfil profesional y mis trabajos de forma interactiva y visualmente atractiva, combinando animaciones y efectos dinámicos.  
 Incluye secciones como:
 - **Inicio**: Presentación personal con una breve descripción y enlaces directos para contactarme.
 - **Proyectos**: Galería de trabajos destacados con visualización adaptable.
@@ -37,7 +37,9 @@ Incluye secciones como:
 
 ├── imgs/ # Imágenes y recursos gráficos
 
-└── Caceres Micaela Jazmin - CV.pdf # CV descargable
+├── constants.js/ # Constantes utilizadas en logic.js
+
+└── pages/ # Páginas de los distintos proyectos 
 
 ## 🚀 Cómo visualizarlo
 - Ver el portfolio en linea [![Ver en Vercel](https://img.shields.io/badge/VERCEL-black?logo=vercel)](link)
@@ -45,3 +47,4 @@ Incluye secciones como:
 - Accede al código clonando el repositorio con los siguientes comandos
  ```bash
    git clone https://github.com/tuusuario/tu-repositorio.git
+
