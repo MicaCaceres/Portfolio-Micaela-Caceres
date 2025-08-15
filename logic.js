@@ -139,4 +139,12 @@ habilidades.forEach(habilidad => {
 if ('scrollRestoration' in history) {
   history.scrollRestoration = 'manual';
 }
+
+document.getElementById('form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    this.reset();
+});
+
+
+
 }

@@ -363,12 +363,149 @@ h2 {
     color:#dedede;
 }
 
+.contacto {
+    padding-top:60px;
+    margin-bottom:300px;
+    width:76vw;
+    margin-left:12vw;
+}
+
+.contacto h3 {
+    text-indent:12%;
+}
+
+.contacto h4 {
+    text-align:center;
+    font-size:18px;
+    color:#dedede;
+    margin-top:50px;
+}
+
+.contacto-container {
+    display:flex;
+    justify-content:center;
+    box-shadow:0 0 10px rgba(0, 255, 255, 0.7);
+    border-radius:20px;
+}
+
+.contacto-texto {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    width:50%;
+}
+
+.contacto-texto a {
+    border-radius:10px;
+}
+
+.contacto-texto a img {
+    border-radius:10px;
+}
+
+.contacto-texto h3 {
+    text-indent:0;
+    background: -webkit-linear-gradient(90deg,rgb(50, 62, 188) 0%, rgb(5, 111, 249));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:36px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.contacto-texto p {
+    font-size:24px;
+    color:#dedede;
+}
+
+.contacto-form {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    background: #b8bcf2;
+    background: linear-gradient(90deg, rgba(184, 188, 242, 1) 0%, rgba(59, 72, 212, 1) 0%, rgba(13, 144, 252, 1) 71%);
+    width:50%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.contacto-form form {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    gap:20px;
+}
+
+textarea,
+input {
+    background:transparent;
+    opacity:0.8;    
+    border:none;
+    padding:5px;
+    border-radius:20px;
+    font-size:18px;
+    color:#2a2828c8;
+    margin:0;
+    border:1px solid #000000b6;
+    box-shadow: 0px 0px 5px rgba(0, 255, 255, 0.5);
+    text-indent:5px;
+}
+
+.contacto-form label {
+    margin-bottom:-20px;
+    color:#dedede;
+}
+
+.contacto-form h3 {
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    gap:25px;
+    margin-bottom:0;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+#consulta {
+    width:300px;
+    height:150px;
+    resize:none;
+}
+
+.contacto-form button {
+    background-color:#dedede;
+    border:1px solid #00000051;
+    font-weight:bold;
+    font-size:16px;
+    padding:7px;
+    border-radius:5px;
+    color:#2a2828c8;
+    cursor:pointer;
+    letter-spacing: 0.4px;
+    margin-bottom:20px;
+    opacity:0.7;
+}
+
+.contacto-form button:hover {
+    background-color:#c2bbdd;
+    color:#000000ef;
+}
+
 footer {
     display:flex;
+    flex-direction:column;
     border-top:1px solid #0d2641;
-    backdrop-filter: blur(5px);
-    color:rgb(0, 1, 1);
-    flex-flow:column wrap;
+    color:#dedede;
 }
 
 .redes {

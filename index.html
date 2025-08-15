@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Portfolio de Micaela Caceres">
     <title>Portfolio Micaela Caceres</title>
+    <link rel="icon" type="image/png" href="imgs/code.svg">
     <link rel="stylesheet" href="style.css">
     <script src="logic.js" type="module" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,6 +25,7 @@
             <a href="#body" class="header-btn">Inicio</a>
             <a href="#proyectos" class="header-btn">Proyectos</a>
             <a href="#sobre-mi" class="header-btn">Sobre mi</a>
+            <a href="#contacto" class="header-btn">Contacto</a>
         </nav>
     </header>
     <section class="presentacion">
@@ -80,6 +82,35 @@
             mi enfoque en la resolución de problemas y la creatividad en el desarrollo de software.
         </p>
 
+    </section>
+    <section class="contacto" id="contacto">
+        <h2>Contacto</h2>
+        <h4>Si tienes alguna pregunta, dudas o sugerencias, no dudes en contactarme.</h4>
+        <div class="contacto-container">
+            <div class="contacto-texto">
+                <h3>Mis datos</h3>
+                <p>Nombre: Micaela Caceres</p>
+                <p>Email: mica.caceres@live.com</p>
+                <p>Ubicación: Entre Ríos, Argentina</p>
+                <a href="https://www.linkedin.com/in/micaela-caceres-b8b01628b/" target="_blank" class="redes">
+                    <img src="imgs/linkedin-icon.svg" alt="Icono de Linkedin">
+                </a>
+            </div>
+            <div class="contacto-form">
+                <form id="form" method="POST">
+                    <h3>Contactame<img src="imgs/mail-icon.svg" alt="Icono de mail" class="icon"></h3>
+                    <label for="name">Nombre</label>
+                    <input name="Nombre" id="name" type="text" class="input-contacto">
+                    <label for="email">Email</label>
+                    <input name="Email" id="email" type="email" class="input-contacto">
+                    <label for="number">Teléfono</label>
+                    <input name="Teléfono" id="number" type="number" class="input-contacto">
+                    <label for="message">Mensaje</label>
+                    <textarea name="Consulta" id="consulta"></textarea>
+                    <button type="submit">Enviar mensaje</button>
+                </form>
+            </div>
+        </div>
     </section>
     <footer class="footer">
         <div class="footer-1">
