@@ -41,10 +41,9 @@ Incluye secciones como:
 
 └── pages/ # Páginas de los distintos proyectos 
 
-## 🚀 Cómo visualizarlo
-- Ver el portfolio en linea [![Ver en Vercel](https://img.shields.io/badge/VERCEL-black?logo=vercel)](link)
-
-- Accede al código clonando el repositorio con los siguientes comandos
+## 🚀 Cómo descargar el código
+- **Accede al código clonando el repositorio con los siguientes comandos**
  ```bash
    git clone https://github.com/tuusuario/tu-repositorio.git
+
 
